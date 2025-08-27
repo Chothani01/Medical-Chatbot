@@ -34,11 +34,6 @@ GROQ_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 HUGGINGFACEHUB_API_TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 ```bash
-# run the following command
-python store_index.py
-```
-
-```bash
 # Finally run the following command
 python app.py
 ```
