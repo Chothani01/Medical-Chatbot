@@ -18,8 +18,6 @@ embedding = load_embedding()
 
 docSearch = PineconeVectorStore.from_existing_index(index_name="medicalchatbot", embedding=embedding)
 
-llm = ChatGroq(model="openai/gpt-oss-120b")
-
 qa = RetrievalQA.from_chain_type(
     llm=llm,
     chain_type="stuff",
